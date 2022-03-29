@@ -30,7 +30,7 @@ We are using LBPH (Local Binary Patterns Histograms ) classifier to recognize th
 
 - [gspread](https://gspread.readthedocs.io/en/latest/)
 
-- JSON
+- [JSON](https://www.json.org/json-en.html)
 
 ## How to run??
 
