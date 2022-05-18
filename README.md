@@ -1,41 +1,21 @@
-# Face-Recognition
-Face detection and Recognition using OpenCV-python
+Many times, criminals are spotted in the recordings of the surveillance systems but because of lack of technical advancement and lack of manpower, authorities don’t get to know that their surveillance systems spotted any wanted criminal.
+Because of this many wanted criminals are free and are left unpunished.
 
-A console based application 
+To solve this Problem, our system provide these key features:
 
-OpenCV based face recognition system that can detect and recognize multiple faces in an image. 
+1. Identification of a criminal (person) in a video recording corresponding to the uploaded picture of criminal (person).
+2. Identification of a criminal (person) in a video recording corresponding to "N" number of small video clip/gif that are to be investigated for the presence of criminal (person) in the uploaded clips.
+3. Identification of criminal (person) in a list of known criminals available in our database. 
+This can be used to Identify their gangs.
+(terrorist groups, etc. in which he/she belongs).
 
-There are 2 parts in a face recognition system.
+Technology used:
 
-1. Face Detection - To detect faces in images.
+• Python
+• Deepface (Python package that contains popular face recognition models)
+• Open CV
 
-2. Face Recognition - To recognize face of persons in the images.
+Future Extension:
 
-## 1.Face Detection 
-
-Face detection is acheived in this project using Haar Cascade classifier. It could be used for object detection. Here we are using it for detecting faces and store the data as array in a .yml file. 
-
-## 2. Face Recognition
-
-We are using LBPH (Local Binary Patterns Histograms ) classifier to recognize the faces from the images. It compares neighboring pixels of a pixel and creates a histogram out of it for comparing faces. We could also use algorithms such as, EigenFaces Face Recognizer and FisherFaces Face Recognizer.
-
-## Requirements
-- [Python3](https://www.python.org/downloads/)
-
-- [OpenCV2](https://opencv.org/releases/)
-
-- [PIL](https://pypi.org/project/Pillow/)
-
-- [Cascade Classifier](https://github.com/opencv/opencv/tree/master/data/haarcascades)
-
-- [gspread](https://gspread.readthedocs.io/en/latest/)
-
-- [JSON](https://www.json.org/json-en.html)
-
-## How to run??
-
-1. Run create.py file to create a dataset by providing name and id, it will capture 20 images and store in dataset and convert into array, store in trainner.yml file.
-
-2. Run detector.py to detect the face. If any face stored in dataset, the name of the person will be displayed.
-
-3. The detected person's data will be added to the google form.
+• Later on we will try to identify criminals corresponding to their partial face.
+• We will be using LSTM to predict the region where crime is going to happen.
