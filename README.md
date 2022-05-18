@@ -33,12 +33,16 @@ he/she belongs).
 3. Automation for routine identification.
 
 Date Set used in the Project:
+
 Currently, we have created our dataset by ourselves so that we can test our platform, later we wish
 to take a dataset from a cyber-cell so as to practically implement our project and solve this real-world
 problem. The data-set will consist of footage from cameras installed in the society (town). Our footage
 are pixelated due to the use of low resolution cameras.
 
-Based on experiments, these models are over performing models: FaceNet, VGG-Face, ArcFace and Dlib.
+Results : 
+
+Based on experiments, these models are over performing models: 
+FaceNet, VGG-Face, ArcFace and Dlib.
 Following are the accuracies of these models on other datasets [Dataset used are: Labeled Faces in
 the Wild (LFW) and YouTube Faces in the Wild (YTF)] which are declared by its creators. This is
 the concept of transfer learning, in which an already existing model is used for a new application.
