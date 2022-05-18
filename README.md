@@ -19,3 +19,26 @@ Future Extension:
 
 • Later on we will try to identify criminals corresponding to their partial face.
 • We will be using LSTM to predict the region where crime is going to happen.
+
+Objective: 
+
+1. Identification
+1.1. Identification of a person in a video recording using a picture. (Positive/negative outlook both)
+1.2. Identification of a person in a video recording using a small video clip/gif. (Positive/negative
+outlook both)
+1.3. Identification in a list of known criminals.
+1.3.1. Identification of criminals and their gang if possible, (terrorist groups, etc. in which
+he/she belongs).
+2. Live Recognition
+3. Automation for routine identification.
+
+Date Set used in the Project:
+Currently, we have created our dataset by ourselves so that we can test our platform, later we wish
+to take a dataset from a cyber-cell so as to practically implement our project and solve this real-world
+problem. The data-set will consist of footage from cameras installed in the society (town). Our footage
+are pixelated due to the use of low resolution cameras.
+
+Based on experiments, these models are over performing models: FaceNet, VGG-Face, ArcFace and Dlib.
+Following are the accuracies of these models on other datasets [Dataset used are: Labeled Faces in
+the Wild (LFW) and YouTube Faces in the Wild (YTF)] which are declared by its creators. This is
+the concept of transfer learning, in which an already existing model is used for a new application.
